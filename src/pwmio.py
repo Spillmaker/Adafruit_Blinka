@@ -36,6 +36,8 @@ elif detector.board.any_odroid_40_pin:
     from adafruit_blinka.microcontroller.generic_linux.sysfs_pwmout import PWMOut
 elif detector.board.any_rock_pi_board:
     from adafruit_blinka.microcontroller.rockchip.PWMOut import PWMOut
+elif detector.board.any_orange_pi:
+    from adafruit_blinka.microcontroller.rockchip.PWMOut import PWMOut
 elif detector.board.binho_nova:
     from adafruit_blinka.microcontroller.nova.pwmout import PWMOut
 elif detector.board.greatfet_one:
