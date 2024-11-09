@@ -174,6 +174,7 @@ UART8_RX_M0 = GPIO2_C6
 # PWM
 PWM0 = GPIO0_B7
 PWM1 = GPIO0_C7
+PWM7 = GPIO4_C0
 
 # ordered as i2cId, SCL, SDA
 i2cPorts = [
@@ -196,6 +197,7 @@ spiPorts = [
 pwmOuts = [
     ((0, 0), PWM0),
     ((0, 0), PWM1),
+    ((4, 0), PWM7)
 ]
 
 uartPorts = []
