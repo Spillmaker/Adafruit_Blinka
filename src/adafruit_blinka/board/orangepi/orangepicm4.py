@@ -95,6 +95,9 @@ SCL_3 = D28
 RXD_9 = D29
 PWM11 = D32
 
+# Fan Control
+PWM7 = pin.GPIO0_C6 # The PWM on the fan-headers on the CM4 Baseboard
+
 # SPI configuration
 SCLK = SPI3_CLK
 MOSI = SPI3_TXD
